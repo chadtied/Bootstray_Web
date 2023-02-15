@@ -1,0 +1,103 @@
+body{
+    background-color: gainsboro;
+}
+.jumbotron {
+    padding: 4rem 2rem;
+    margin-bottom: 2rem;
+    background-color: var(--bs-light);
+    border-radius: .3rem;  
+}
+h1,h2,h3,h4,h5,h6{
+    font-family: 'Noto Sans TC', sans-serif;
+}
+p,a,span,ul,li,label,input{
+    font-family: 'Open Sans', sans-serif;
+}
+.container{
+    position: relative;
+}
+#intro .container{
+    transform: translate(0%,60%);
+}
+#intro h1{
+    font-size: 55px;
+    line-height: 1.5;
+    color: whitesmoke;
+}
+#intro p{
+    font-weight: 600;
+    color: gainsboro;
+}
+#intro a{
+    margin-top: 30px;
+    background-color: red;
+    font-size: 20px;
+    color: azure;
+    font-weight: 900;
+    padding: 10px 15px;
+    border-radius: 20px;
+}
+#intro .jumbotron{
+    position: relative;
+    background-image: url("./bg.jpg");
+    background-size:cover;
+    height: 80vh;
+}
+
+header .nav-item a{
+    color: gainsboro;
+    font-weight: 600;
+    font-size: 18px;
+}
+header .nav-item .dropdown-item{
+    color: gray;
+}
+header .nav-item{
+    margin-left: 2vw;
+}
+header .navbar img{
+    width: 200px;
+    margin-right: 6vw;
+    transform: translateX(-50%);
+}
+#infor h3{
+    margin: 80px;
+}
+#infor img{
+    margin-top: -80px;
+    width: 300px;
+    background-color: gainsboro;
+    border-radius: 50%;
+}
+#infor p.story{
+    width: 500px;
+    font-size: 16px;
+    font-weight: 700;
+    color: gray;
+}
+#infor p.lead{
+    width: 500px;
+    font-weight: 400;
+    margin-bottom: 40px;
+}
+#infor .container{
+    padding-bottom: 160px;
+}
+
+#aboutus .container{
+    margin-top: 100px;
+}
+
+#aboutus p{
+    font-weight: 500;
+    color: gray;
+}
+
+#aboutus p span{
+    color: darkgoldenrod;
+}
+
+#aboutus p:hover{
+    transition: 0.5;
+    color: black;
+}
